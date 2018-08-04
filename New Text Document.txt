@@ -1,0 +1,11 @@
+
+saru test cases
+Test case passed efficiency ->       49.09 %
+
+Test case fail efficiency ->              50.90%
+
+Test case automated efficiency ->    98.14% 
+
+Test case non automated efficiency->  01.85% 
+these data
+ 

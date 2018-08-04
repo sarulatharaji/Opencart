@@ -1,0 +1,23 @@
+set JAVA_HOME=c:\jdk1.8.0_25
+set path=c:\jdk1.8.0_25\bin
+set classpath=c:\jdk1.8.0_25\lib
+
+
+for chrome
+java -jar selenium-server-standalone-3.0.1.jar -role hub
+java -Dwebdriver.chrome.driver=D:\sarulatha\M4\chromedriver.exe -jar selenium-server-standalone-3.0.1.jar -role webdriver -hub http://localhost:4444/grid/register -port 6666
+
+
+for ie
+java -jar selenium-server-standalone-3.0.1.jar -role hub
+java -Dwebdriver.internetExplorer.driver=D:\IEDriverServer.exe -jar selenium-server-standalone-3.0.1.jar -role webdriver -hub http://localhost:4444/grid/register -port 6666
+
+
+for firefox
+for hub:- java -jar selenium-server-standalone-2.47.1.jar -role hub
+for node:- java -jar selenium-server-standalone-2.47.1.jar -role webdriver -hub http://localhost:4444/grid/register -port 6666
+
+
+path
+
+D:\sarulatha\M4\selenium jars
